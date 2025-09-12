@@ -1,6 +1,6 @@
 # Online Book Store
 
-A web application for managing an online book store built with Spring Boot.
+A Spring Boot web application for managing an online book store.
 
 ## Features
 
