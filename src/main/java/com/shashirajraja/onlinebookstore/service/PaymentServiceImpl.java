@@ -74,7 +74,7 @@ public class PaymentServiceImpl implements PaymentService {
 		purchaseHistory.setPurchaseDetails(purchaseDetails);
 		//save the purchase History
 		try {
-			customer.addPurchaseHistories(purchaseHistory);
+			purchaseHistoryRepos.save(purchaseHistory);
 			customer.getShoppingCart().clear();
 			customerRepos.save(customer);
 			//add the books to the customers service
